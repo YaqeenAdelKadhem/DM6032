@@ -5,13 +5,13 @@
  font-family: segoe UI, Arial;
 }
 
-body{
-  background:white;
-  color:black;
-  padding-top:65px;
-  text-align:center;
-
+h1{font-family: Segoe UI, arial;
+text-align:center;
+  font-size:25px;
+  font-weight: bold;
+  color: white;
 }
+
 
 nav{
   position:fixed;
@@ -20,14 +20,14 @@ nav{
   width:100%;
 }
 
-nav ul{
+ul{
   justify-content:center;
   list-style:none;
   gap:20px;
   display:flex;
 }
 
-.table{
+table{
   margin:18px auto;
   border:10px  black;
   border-collapse:collapse;
@@ -41,15 +41,8 @@ table th{
   
 }
 
-.table th,
-.table td{border:2px solid black;}
+th,td{border:2px solid black;}
 
-nav a{
-  color:white;
-  font-weight:bold;
-  text-decoration:none;
- 
-}
 
 #ourmenu{
   margin-top:60px;
@@ -65,4 +58,18 @@ nav a{
   object-fit:cover;
   
 }
+
+h2{font-family: Times new roman, arial;
+  font-size:35px;
+  color:red;
+  text-align:center;
+}
+
+h3{font-family: Times new roman, arial;
+  font-size:35px;
+  color:red;
+  text-align:center;
+}
+
+
 #logo {width:30%;}
