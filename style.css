@@ -1,56 +1,68 @@
-h1 {font-family: Times New Roman;
-text-align: center;
-font-size: 25px;
-font- weight: bold;
-color: brown;
-letter-spacing: 3px;
-border:2px solid black;
-line-height: 48px;
-background-color: beige;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+ font-family: segoe UI, Arial;
 }
 
-ul {disply: flex;
-justify-content: center;
-gap: 50px;
+body{
+  background:white;
+  color:black;
+  padding-top:65px;
+  text-align:center;
+
 }
 
-a {color: brown;
-font-family: Times New Roman, Arial;
-font-size: 15px;
-letter-spacing: 2px;
-text-decoration: underline;
-font-weight: bold;
+nav{
+  position:fixed;
+  top:0;
+  background:orange;
+  width:100%;
 }
 
-#table1 {border: 2px brown;
-color: brown;
-background-color: beige;
-border-collapse: collapse;
-height: 100px;
-width: 50px;
-text-align: center;
-margin: 30px;
-padding: 6px;
+nav ul{
+  justify-content:center;
+  list-style:none;
+  gap:20px;
+  display:flex;
 }
 
-h2 {font-family: Times New Roman, Arial;
-font-size: 18px;
-color: brown;
-text-align: center;
+.table{
+  margin:18px auto;
+  border:10px  black;
+  border-collapse:collapse;
+  width:50%;
+ 
 }
 
-#media {
-  width: 350px;
-  height: 400px;
-  margin: 20px;
-  padding: 20px;
+table th{
+  background-color:orange;
+  color:white;
+  
 }
 
-#banner {
-  width: 100%;
-  max-width: 1200px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px;
+.table th,
+.table td{border:2px solid black;}
+
+nav a{
+  color:white;
+  font-weight:bold;
+  text-decoration:none;
+ 
 }
+
+#ourmenu{
+  margin-top:60px;
+
+  
+}
+#contactform{margin-top:60px;
+}
+
+.table img{
+  width:100px;
+  heigh:100px;
+  object-fit:cover;
+  
+}
+#logo {width:30%;}
