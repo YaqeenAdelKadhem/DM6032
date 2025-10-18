@@ -1,15 +1,16 @@
 *{
   margin:0;
   padding:0;
+    box-sizing:border-box;
   font-family:Times New Romans, Arial;
-  box-sizing:border-sizing;
+
 }
 
 body{
   background:white;
   color:black;
-  text-align:center;
   padding-top:65px;
+    text-align:center;
 }
 
 nav{
@@ -21,10 +22,10 @@ nav{
 
 nav ul{
   justify-content:center;
-  lifestyle:none;
-  display:flex;
+lifestyle:none;
   gap:30px;
-  align=item:center;
+  display:flex;
+  align-item:center;
   padding:10px;
   
   }
@@ -33,7 +34,7 @@ nav a{
   font-weight:bold;
   text-decoration:none;
 }
-nava:hover{
+nav a:hover{
   text-decoration:underline;
 }
 
@@ -58,9 +59,9 @@ nava:hover{
   padding:10px
   
 }
-table img{
-  width:100%;
-    hight:100%;
+.table img{
+  width:100px;
+    height:100px;
     object-fit:cover;
   
 }
